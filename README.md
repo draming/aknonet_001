@@ -4,6 +4,7 @@
 - 002 [Mac终端命令大全](/1002_MacCommand.md)
 - 003 [Homebrew&npm](/1003_homebrew&npm.md)
 - 004 [node.js & websocket](/1004_nodejs&websocket.md)
+- 005 [sublime text](/1005_sublime.md)
 
 ## part II Python 学习笔记
 
