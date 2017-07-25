@@ -145,6 +145,10 @@ list元素也可以是另一个list，借以实现二维数组，类似的还可
 classmates = ('Michael', 'Bob', 'Tracy')
 ```
 
+# python没有&&和||运算符，取而代之的是英文and和or～～～
+
+
+
 
 
 
