@@ -119,11 +119,32 @@ s1 is 72.000, s2 is 0085
 
 # list & tuple
 - list: 
+```
 classmates = ['Michael', 'Bob', 'Tracy']
-#返回
-classmates = ['Michael', 'Bob', 'Tracy']
-classmates = ['Michael', 'Bob', 'Tracy']
+#返回list的元素个数
 len(classmates)  
+#返回list的某个元素的值，从0开始，最后一个元素也可以表示为-1，倒数第二个-2，依次类推
+classmates[0]
+#在list最后追加一个元素
+classmates.append('Adam')
+#把元素插入到指定的位置，比如索引号为1的位置
+classmates.insert(1, 'Jack')
+返回['Michael', 'Jack', 'Bob', 'Tracy', 'Adam']
+#要删除list末尾的元素
+classmates.pop()
+#要删除指定位置的元素，用pop(i)方法，其中i是索引位置
+#要把某个元素替换成别的元素，可以直接赋值给对应的索引位置
+classmates[1] = 'Sarah'
+
+```
+list元素也可以是另一个list，借以实现二维数组，类似的还可以实现三维、思维数组等，不过较少用到
+
+- tuple:
+和list非常类似，但是tuple一旦初始化就不能修改;因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。
+```
+classmates = ('Michael', 'Bob', 'Tracy')
+```
+
 
 
 
