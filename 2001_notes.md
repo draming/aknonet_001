@@ -1,11 +1,13 @@
 
-
 - 运行python程序：进入.py文件所在目录，运行`python xx.py`命令
 
 - 直接运行.py文件：windows上不可以，mac和linux可以，方法如下：
-  1. 在.py文件开头增加特殊的注释`#!usr/bin/env python3`    
+  1. 在.py文件开头增加特殊的注释`#!usr/bin/env python3` 
+  
   系统看到时，先到env设置里查找python的安装路径，再调用对应路径下的解释器程序完成操作。
+  
   2. 通过命令`chmod a+x xx.py`给文件以权限
+  
   chmod：文件/目录权限设置命令，其语法格式为：chmod [who] [opt] [mode] 文件/目录名 
   u：表示文件所有者 
   g：表示同组用户 
@@ -19,6 +21,7 @@
   r：可读 
   w：可写 
   x：可执行 
+  
   3. 通过命令`./xx.py`运行
   
 
