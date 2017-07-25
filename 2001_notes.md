@@ -33,7 +33,7 @@
 这两个函数均能接收字符串 ，但raw_input() 直接读取控制台的输入（任何类型的输入它都可以接收）。
 而对于input() ，它希望能够读取一个合法的 python 表达式，即你输入字符串的时候必须使用引号将它括起来，否则它会引发一个 SyntaxError 。
 
-#为什么print输出时会出现单引号呢？？？待解决
+# 为什么print输出时会出现单引号呢？？？待解决
 ```
 name = raw_input('please input your name:')
 print('hello,', name)
@@ -44,3 +44,15 @@ yuanyuandeMacBook-Pro:python nancyliao$ python hello.py
 please input your name:nancy
 ('hello,', 'nancy')
 ```
+
+
+# print()里面有中文
+需要在
+print('转义符n的意思\n是换行')
+
+
+#### 转义符
+- 转义字符\可以转义很多字符，比如\n表示换行，\t表示制表符，字符\本身也要转义，所以\\表示的字符就是\，
+
+
+
