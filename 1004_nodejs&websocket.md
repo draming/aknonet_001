@@ -1,3 +1,6 @@
+#### node.js相关
+
+
 #### 转载来源说明
 #### 作者：厂长
 #### 链接：https://www.zhihu.com/question/33578075/answer/56951771
@@ -20,4 +23,9 @@
 不过，Node.js就比前者更妙了。Node.js的应用是通过javascript开发的，然后直接在Google的变态V8引擎上跑。用了Node.js，你就不用担心用户端的请求会在服务器里跑了一段能够造成阻塞的代码了。因为javascript本身就是事件驱动的脚本语言。你回想一下，在给前端写javascript的时候，更多时候你都是在搞事件处理和回调函数。javascript本身就是给事件处理量身定制的语言。
 
 
-#### 再补充一些关于websocket的[知乎回答](https://www.zhihu.com/question/20215561)
+[node.js教程参考](http://www.runoob.com/nodejs/nodejs-tutorial.html)
+
+----
+#### websocket相关
+
+再补充一些关于websocket的[知乎回答](https://www.zhihu.com/question/20215561)
