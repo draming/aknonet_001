@@ -45,13 +45,13 @@ npm是随同node.js一起安装的包管理工具，能解决node.js代码部署
 
 ### npm的使用
 
-测试npm安装是否成功`npm -v`，返回版本号
-使用npm命令安装模块 `npm install <module name>`
-查看所有全局安装的模块 `npm list -g`
-查看某个模块的版本号 `npm list <module name>`
-更新某个模块 `npm update <module name>`
-查找某个模块 `npm search <module name>`
-卸载某个模块 `npm uninstall <module name>`
+- 测试npm安装是否成功`npm -v`，返回版本号
+- 使用npm命令安装模块 `npm install <module name>`
+- 查看所有全局安装的模块 `npm list -g`
+- 查看某个模块的版本号 `npm list <module name>`
+- 更新某个模块 `npm update <module name>`
+- 查找某个模块 `npm search <module name>`
+- 卸载某个模块 `npm uninstall <module name>`
 
 
 
