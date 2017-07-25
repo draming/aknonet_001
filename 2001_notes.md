@@ -5,7 +5,8 @@
 - 启动python解释器：在命令行下输入`python3`
 - 退出python解释器：在命令行下输入`exit()`
 
-- 运行python程序：进入.py文件所在目录，运行`python xx.py`命令
+- 运行python程序：进入.py文件所在目录，运行`python xx.py`命令  
+  **特别注意，如果要运行python3，则需要使用`python3 xx.py`命令，否则已然是系统预装的python2.x，在运行结果上有差异，比如除法结果2只取整数，3才是浮点数**
 
 - 直接运行.py文件：windows上不可以，mac和linux可以，方法如下：
   1. 在.py文件开头增加特殊的注释`#!usr/bin/env python3` 
@@ -35,6 +36,7 @@
 # input 与 raw_input
 这两个函数均能接收字符串 ，但raw_input() 直接读取控制台的输入（任何类型的输入它都可以接收）。
 而对于input() ，它希望能够读取一个合法的 python 表达式，即你输入字符串的时候必须使用引号将它括起来，否则它会引发一个 SyntaxError 。
+**后来发现，上述问题是python2下的问题，python3里压根没有raw_input**
 
 ----
 
@@ -47,6 +49,7 @@
 - 转义字符\，比如\n表示换行，\t表示制表符，字符\本身也要转义，所以\\表示的字符就是\
 - 如果字符串里面有很多字符都需要转义，就需要加很多\，为了简化，Python还允许用r''表示''内部的字符串默认不转义
   `print(r'\\\t\\')`
+  
   输出`\\\t\\`
 - '''...'''的格式表示多行内容
   ```
@@ -54,29 +57,34 @@
   line2
   line3''')
   ```
-  输出
-  ```
-  line1
-  line2
-  line3
-  ```
-  
+  
+    输出
+    ```
+    line1
+    line2
+    line3
+    ```
+
+----
+
+
+# 大小写敏感，切忌切忌～～～
+
+----
+
+# 关于除法
+
+- “／”的结果为浮点数，哪怕是两个整数相除
+- “／／”只取结果的整数部分
+- “％”得到两个整数相除的余数
+
+----
+
+# 如果提示str和int类型不匹配，用int()将string转为int类型
 
 
 
 ----
-
-# 为什么print输出时会出现单引号呢？？？待解决
-```
-name = raw_input('please input your name:')
-print('hello,', name)
-```
-输出是这个样子的。。。
-```
-yuanyuandeMacBook-Pro:python nancyliao$ python hello.py
-please input your name:nancy
-('hello,', 'nancy')
-```
 
 
 
