@@ -7,3 +7,5 @@
 
 ## part II Python 学习笔记
 
+- 001 [一些notes](/2001_notes.md)
+
