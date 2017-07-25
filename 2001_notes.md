@@ -145,11 +145,17 @@ list元素也可以是另一个list，借以实现二维数组，类似的还可
 classmates = ('Michael', 'Bob', 'Tracy')
 ```
 
-# python没有&&和||运算符，取而代之的是英文and和or～～～
+## python没有&&和||运算符，取而代之的是英文and和or～～～
 
-# for...in循环和while循环。break语句可以在循环过程中直接退出循环，而continue语句可以提前结束本轮循环，并直接开始下一轮循环。
+## for...in循环和while循环。break语句可以在循环过程中直接退出循环，而continue语句可以提前结束本轮循环，并直接开始下一轮循环。
 
-# 死循环时可以用Ctrl+C退出程序，或者强制结束Python进程。
+## 死循环时可以用Ctrl+C退出程序，或者强制结束Python进程。
+
+-----
+
+# dict和set
+- dict格式{'key1':value, 'key2':value}  就是key:value的方式存储
+
 
 
 
