@@ -117,6 +117,14 @@ please input this year score:85
 s1 is 72.000, s2 is 0085
 ```
 
+# list & tuple
+- list: 
+classmates = ['Michael', 'Bob', 'Tracy']
+#返回
+classmates = ['Michael', 'Bob', 'Tracy']
+classmates = ['Michael', 'Bob', 'Tracy']
+len(classmates)  
+
 
 
 
