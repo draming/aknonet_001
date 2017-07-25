@@ -1,3 +1,7 @@
+[学习资料from廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
+- 启动python解释器：在命令行下输入`python3`
+- 退出python解释器：在命令行下输入`exit()`
 
 - 运行python程序：进入.py文件所在目录，运行`python xx.py`命令
 
@@ -25,3 +29,18 @@
   3. 通过命令`./xx.py`运行
   
 
+#### input 与 raw_input
+这两个函数均能接收字符串 ，但raw_input() 直接读取控制台的输入（任何类型的输入它都可以接收）。
+而对于input() ，它希望能够读取一个合法的 python 表达式，即你输入字符串的时候必须使用引号将它括起来，否则它会引发一个 SyntaxError 。
+
+#为什么print输出时会出现单引号呢？？？待解决
+```
+name = raw_input('please input your name:')
+print('hello,', name)
+```
+输出是这个样子的。。。
+```
+yuanyuandeMacBook-Pro:python nancyliao$ python hello.py
+please input your name:nancy
+('hello,', 'nancy')
+```
