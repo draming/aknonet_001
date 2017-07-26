@@ -1,5 +1,7 @@
 [学习参考资料——廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 
+[python内置函数](https://docs.python.org/3/library/functions.html)
+
 #### 基础
 
 - 启动python解释器：在命令行下输入`python3`
@@ -172,6 +174,11 @@ classmates = ('Michael', 'Bob', 'Tracy')
 - set可以看成数学意义上的无序和无重复元素的集合，因此，两个set可以做数学意义上的交集(&)、并集(|)等操作
 
 
+#### 函数
+- 内置函数isinstance用来判断变量类型，例如：isinstance(a,(int,str))，返回True或False
+- 可以定义可变参数，参数可以是多个甚至0个，在参数名前面加＊，参数接收到后组装成一个tuple，在list或tuple前面加＊作为参数则意味着把list或tuple所有元素传入
+- 可以定义关键字参数，在参数名前面加＊＊，参数接收到后组装成一个dict，反过来，在dict名前面加＊＊作为参数传入则意味着把所有dict元素传入
+- 在Python中定义函数，可以用必选参数、默认参数、可变参数、关键字参数和命名关键字参数，这5种参数都可以组合使用。但是请注意，参数定义的顺序必须是：必选参数、默认参数、可变参数、命名关键字参数和关键字参数。
 
 
 
